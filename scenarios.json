@@ -1,17 +1,407 @@
 [
   {
-    "id": "platzrunde-einflug-rechtsplatzrunde-13r",
-    "category": "Platzrunde",
-    "situation": "Du hast soeben den Pflichtmeldepunkt Kilo 2 gemeldet.",
-    "transmissionSpeaker": "Köln/Bonn Turm",
-    "transmissionText": "D-EVSA, fliegen Sie in die Rechtsplatzrunde Piste 13R ein, melden Sie Gegenanflug.",
-    "solutionText": "Fliege in die Rechtsplatzrunde Piste 13R ein, WILCO, D-EVSA",
+    "id": "erstanruf-koeln-bonn-rollkontrolle",
+    "category": "Einleitungs-/Erstanruf bei zuständiger Stelle",
+    "situation": "Einleitungs-/ Erstanruf Köln Bonn Rollkontrolle",
+    "transmissionSpeaker": "",
+    "transmissionText": "",
+    "solutionText": "Köln Bonn Rollkontrolle, D-ELLI",
     "language": "de",
-    "keywords": ["Freigabe", "WILCO"],
+    "keywords": [],
     "explanations": [
-      { "title": "Warum die Freigabe zurückgelesen wird", "body": "Freigaben sind grundsätzlich zurückzulesen." },
-      { "title": "Warum WILCO", "body": "Meldungen, die in der Zukunft liegen, sind mit einem WILCO (Will Comply) zu beantworten." },
-      { "title": "Häufiger Fehler", "body": "„Melde Gegenanflug“ als Antwort wäre falsch, da es unter Umständen mit der tatsächlichen Meldung zu verwechseln wäre." }
+      {
+        "title": "Warum nur Name der Bodenstelle und des Luftfahrzeugs?",
+        "body": "Beim Erstanruf wird zuerst nur die Bodenstelle gerufen (wer wird gerufen) und danach nennt man die eigene vollständige Kennung des Luftfahrzeuges."
+      }
+    ]
+  },
+  {
+    "id": "rollfreigabe-erbitten-vorfeld-gat",
+    "category": "Rollen",
+    "situation": "Rollkontrolle hat  dich zurückgerufen und du möchtest deine Rollfreigabe.",
+    "transmissionSpeaker": "Rollkontrolle",
+    "transmissionText": "D-LI, Köln Bonn Rollkontrolle",
+    "solutionText": "D-LI, Piper PA 18, Position GAT Vorfeld Victor, VFR nach Düsseldorf via K2 und K1, Information B, erbitte rollen.",
+    "language": "de",
+    "keywords": [],
+    "explanations": [
+      {
+        "title": "Warum abgekürztes Callsign?",
+        "body": "Sobald die Gegenstelle das abgekürzte Rufzeichen verwendet hat, darf(muss) es auch von einem selber verwendet werden."
+      }
+    ]
+  },
+  {
+    "id": "rollfreigabe-rollhalt-piste31r",
+    "category": "Rollen",
+    "situation": "Du stehst am Vorfeld V (GAT) und erhältst die Rollfreigabe.",
+    "transmissionSpeaker": "Rollkontrolle",
+    "transmissionText": "D-LI, rollen sie zum Rollhalt Piste 31R über T, D, A und A3.",
+    "solutionText": "Rolle zum Rollhalt Piste 31R über T, D, A und A3 , D-LI.",
+    "language": "de",
+    "keywords": [
+      "Rollauftrag",
+      "Piste",
+      "Kennung"
+    ],
+    "explanations": [
+      {
+        "title": "Warum … zurückgelesen wird",
+        "body": "Rollanweisungen und Rollhalte sind zurückzulesen."
+      },
+      {
+        "title": "Häufiger Fehler",
+        "body": "Rufzeichen bei Anweisungen ,die zurückgelesen werden kommen an das Ende des Funkspruchs."
+      }
+    ]
+  },
+  {
+    "id": "frequenzwechsel-turm-abflugbereit-melden",
+    "category": "Frequenzwechsel",
+    "situation": "Die Rollkontrolle weist dich an die Frequenz zu wechseln und abflugbereit zu melden.",
+    "transmissionSpeaker": "Rollkontrolle",
+    "transmissionText": "D-LI, rufen sie Köln-Bonn Turm auf 124,980 und melden sie Abflugbereit.",
+    "solutionText": "Werde Köln-Bonn Turm auf 124,980 rufen, WILCO D-LI.",
+    "language": "de",
+    "keywords": [
+      "Frequenzwechsel",
+      "WILCO bei Meldung",
+      "Kennung"
+    ],
+    "explanations": [
+      {
+        "title": "Warum zurückgelesen wird",
+        "body": "Frequenzwechsel sind zurückzulesen, die Meldung wenn Abflugbereit wird nur mit WILCO zurückgelesen."
+      },
+      {
+        "title": "Häufiger Fehler",
+        "body": "Melden sie wird zurückgelesen.... WILCO ist hierfür richtig."
+      }
+    ]
+  },
+  {
+    "id": "abflugbereit-melden-rollhalt-a3",
+    "category": "Start",
+    "situation": "Du stehst am Rollhalt und meldest dich abflugbereit.",
+    "transmissionSpeaker": "",
+    "transmissionText": "",
+    "solutionText": "Köln-Bonn Turm, D-ELLI, halte am Rollhalt A3, Piste 31R, abflugbereit.",
+    "language": "de",
+    "keywords": [
+      "Rollhalt",
+      "Kennung",
+      "Bodenstelle"
+    ],
+    "explanations": [
+      {
+        "title": "Warum ganzes Rufzeichen?",
+        "body": "Es könnten sich andere Flugzeuge mit ähnlicher Kennung im Anflug/Abflug befinden, deshalb muss beim Einleitungsruf bei einer neuen Funkstelle das ganze Rufzeichen gesagt werden."
+      },
+      {
+        "title": "Warum Informationen entfallen?",
+        "body": "Die neue Funkstelle (am gleichen Flugplatz) hat den Flugplan erhalten, weshalb nicht erneut alle Informationen (wo hin, Luftfahrzeug,....) genannt werden müssen."
+      },
+      {
+        "title": "Häufiger Fehler",
+        "body": "Bodenfunkstelle vergessen, Abgekürztes Rufzeichen, Rollhalt vergessen"
+      }
+    ]
+  },
+  {
+    "id": "rollauftrag-hinter-verkehr-abflugpunkt-31r",
+    "category": "Start",
+    "situation": "Der Turm gibt dir die Starterlaubnis, mit Anweisungen.",
+    "transmissionSpeaker": "Turm",
+    "transmissionText": "D-LI, hinter abfliegender Boeing 737 rollen sie zum Abflugpunkt Piste 31R dahinter, QNH 1020.",
+    "solutionText": "Hinter abfliegender Boeing 737 rolle zum Abflugpunkt Piste 31R dahinter, QNH 1020 D-LI.",
+    "language": "de",
+    "keywords": [
+      "Kennung am Ende",
+      "Rollauftrag",
+      "QNH"
+    ],
+    "explanations": [
+      {
+        "title": "Wichtig:",
+        "body": "Bei Anweisungen zu anderem Verkehr muss das (in dem Fall) dahinter zweifach zurückgelesen werden aus Sicherheitsgründen."
+      },
+      {
+        "title": "Warum … entfällt",
+        "body": ""
+      },
+      {
+        "title": "Häufiger Fehler",
+        "body": "Dahinter wird nur einmal zurückgelesen."
+      }
+    ]
+  },
+  {
+    "id": "startfreigabe-piste31r",
+    "category": "Start",
+    "situation": "Du erhältst deine Starterlaubnis.",
+    "transmissionSpeaker": "Turm",
+    "transmissionText": "D-LI, Wind 300 Grad, 5 Knoten, Piste 31R Start frei.",
+    "solutionText": "Piste 31R Start frei, D-LI.",
+    "language": "de",
+    "keywords": [
+      "Startfreigabe",
+      "Kennung"
+    ],
+    "explanations": [
+      {
+        "title": "Warum Wind entfällt",
+        "body": "Wind muss nicht zurückgelesen werden."
+      }
+    ]
+  },
+  {
+    "id": "meldepunkt-kilo2-hoehe",
+    "category": "Start",
+    "situation": "Erster Meldepunkt",
+    "transmissionSpeaker": "",
+    "transmissionText": "",
+    "solutionText": "D-LI, Kilo 2, 2.500 Fuß.",
+    "language": "de",
+    "keywords": [
+      "Pflichtmeldepunkt",
+      "Höhe",
+      "Kennung"
+    ],
+    "explanations": [
+      {
+        "title": "Warum Höhe gemeldet?",
+        "body": "Bei Pflichtmeldepunkten wird die Höhe gemeldet."
+      },
+      {
+        "title": "Häufiger Fehler",
+        "body": "Pflichtmeldepunkte vergessen."
+      }
+    ]
+  },
+  {
+    "id": "steuerkurs-melden-nach-k2",
+    "category": "Abflug",
+    "situation": "Du bist über K2.",
+    "transmissionSpeaker": "Turm",
+    "transmissionText": "D-LI melden sie Steuerkurs.",
+    "solutionText": "Steuerkurs 325, D-LI.",
+    "language": "de",
+    "keywords": [
+      "Steuerkurs",
+      "Kennung"
+    ],
+    "explanations": [
+      {
+        "title": "Häufiger Fehler",
+        "body": "Steuerkurs falsch abgelesen."
+      }
+    ]
+  },
+  {
+    "id": "meldepunkt-kilo1-hoehe",
+    "category": "Abflug",
+    "situation": "Zweiter Pflichtmeldepunkt.",
+    "transmissionSpeaker": "",
+    "transmissionText": "",
+    "solutionText": "D-LI, Kilo 1, 2.500 Fuß.",
+    "language": "de",
+    "keywords": [
+      "Höhe",
+      "Kennung"
+    ],
+    "explanations": [
+      {
+        "title": "Häufiger Fehler",
+        "body": "Zwotausend Fünfhundert Fuß"
+      }
+    ]
+  },
+  {
+    "id": "verlassen-kontrollzone-squawk-vfr",
+    "category": "Verlassen der Kontrollzone",
+    "situation": "Du bist über Kilo 1 und erhältst die Freigabe zum Verlassen der Kontrollzone.",
+    "transmissionSpeaker": "Rollkontrolle",
+    "transmissionText": "D-LI, Squawk VFR, verlassen der Frequenz genehmigt.",
+    "solutionText": "Squawking VFR, verlasse Frequenz, D-LI.",
+    "language": "de",
+    "keywords": [
+      "Squawk",
+      "Verlassen der Frequenz",
+      "Kennung"
+    ],
+    "explanations": [
+      {
+        "title": "Häufiger Fehler",
+        "body": "Squawk muss zurückgelesen werden, sowie die Bestätigung zur Verlassen der Frequenz."
+      }
+    ]
+  },
+  {
+    "id": "erstanruf-duesseldorf-turm",
+    "category": "Einleitungs-/Erstanruf bei zuständiger Stelle",
+    "situation": "Du meldest dich beim Düsseldorf Turm.",
+    "transmissionSpeaker": "",
+    "transmissionText": "",
+    "solutionText": "Düsseldorf Turm, D-ELLI.",
+    "language": "de",
+    "keywords": [
+      "Kennung",
+      "Bodenstelle"
+    ],
+    "explanations": [
+      {
+        "title": "Häufiger Fehler",
+        "body": "Erstanruf bei neuer Stelle nur Rufzeichen der Bodenstelle und eigenes Rufzeichen, Bodenstelle weiß nichts von Anflug."
+      }
+    ]
+  },
+  {
+    "id": "kontrollzone-einflug-informationen-suedlich-sierra",
+    "category": "Kontrollzone-Einflug",
+    "situation": "Du bist 5 min südlich von Sierra 1 und übermittelst deine Informationen. (ATIS: T, Piper PA18)",
+    "transmissionSpeaker": "",
+    "transmissionText": "D-LI, Düsseldorf Turm.",
+    "solutionText": "D-LI, Piper PA18, VFR aus Köln-Bonn, 5 Minuten südlich Sierra, 2.500 Fuß, Information S zur Landung.",
+    "language": "de",
+    "keywords": [
+      "Kennung",
+      "Positionsmeldung"
+    ],
+    "explanations": [
+      {
+        "title": "Warum nochmal alle Informationen?",
+        "body": "Neue Bodenstelle weiß nichts von Ankunft, alle Informationen müssen übermittelt werden.(Kennung, Flugzeugtyp, Standort, woher, Höhe, ATIS Kennbuchstabe, was man möchte."
+      },
+      {
+        "title": "Häufiger Fehler",
+        "body": "Abgekürztes Rufzeichen, Position vergessen, Höhe auf Karte beachten."
+      }
+    ]
+  },
+  {
+    "id": "einflugfreigabe-kontrollzone-sierra",
+    "category": "Kontrollzone-Einflug",
+    "situation": "Du erhältst die Einflugfreigabe.",
+    "transmissionSpeaker": "Turm",
+    "transmissionText": "D-LI, fliegen sie in die Kontrollzone über Sierra ein, Piste 23L, QNH 1019, Squawk 6651.",
+    "solutionText": "Werde in die Kontrollzone über Sierra einfliegen, Piste 23L, QNH 1019, Squawking 6651, D-LI.",
+    "language": "de",
+    "keywords": [
+      "Einflug in CTR",
+      "QNH",
+      "Squawk",
+      "Kennung"
+    ],
+    "explanations": [
+      {
+        "title": "Warum alles zurückgelesen wird",
+        "body": "Alle Informationen (Einflug in CTR, Piste, Squawk, QNH) sind Teile die zurückgelesen werden müssen!"
+      },
+      {
+        "title": "Häufiger Fehler",
+        "body": "2 wird zu ZWO."
+      }
+    ]
+  },
+  {
+    "id": "meldepunkt-sierra-hoehe",
+    "category": "Meldepunkt",
+    "situation": "Über Sierra.",
+    "transmissionSpeaker": "",
+    "transmissionText": "",
+    "solutionText": "D-LI, Sierra, 2.500 Fuß.",
+    "language": "de",
+    "keywords": [
+      "Kennung",
+      "Pflichtmeldepunkt",
+      "Höhe"
+    ],
+    "explanations": []
+  },
+  {
+    "id": "platzrunde-einflug-gegenanflug-melden",
+    "category": "Meldepunkt",
+    "situation": "Über Sierra",
+    "transmissionSpeaker": "Turm",
+    "transmissionText": "D-ELLI, fliegen sie in die Platzrunde ein Piste 23L, melden sie Gegenanflug.",
+    "solutionText": "Werde in die Platzrunde einfliegen Piste 23L, WILCO, D-ELLI.",
+    "language": "de",
+    "keywords": [
+      "Kennung",
+      "Platzrunde",
+      "Piste"
+    ],
+    "explanations": [
+      {
+        "title": "Häufiger Fehler",
+        "body": "Ganzes Rufzeichen, WILCO benutzen für nächste Meldung."
+      }
+    ]
+  },
+  {
+    "id": "gegenanflug-piste23l-melden",
+    "category": "Platzrunde",
+    "situation": "Du bist im Gegenanflug Piste 23L",
+    "transmissionSpeaker": "",
+    "transmissionText": "",
+    "solutionText": "D-ELLI, Gegenanflug Piste 23L.",
+    "language": "de",
+    "keywords": [
+      "Platzrunde",
+      "Kennung"
+    ],
+    "explanations": [
+      {
+        "title": "Häufiger Fehler",
+        "body": "Wieder ganzes Rufzeichen wie davor von Turm verwendet."
+      },
+      {
+        "title": "Was wird gemeldet:",
+        "body": "Wie verlangt Gegenanflug Piste 23L"
+      }
+    ]
+  },
+  {
+    "id": "steuerkurs-gegenanflug-piste23l",
+    "category": "Platzrunde",
+    "situation": "Gegenanflug Piste 23L",
+    "transmissionSpeaker": "Turm",
+    "transmissionText": "D-LI, melden sie Steuerkurs.",
+    "solutionText": "Steuerkurs 050, D-LI.",
+    "language": "de",
+    "keywords": [
+      "Steuerkurs",
+      "Platzrunde",
+      "Kennung"
+    ],
+    "explanations": [
+      {
+        "title": "Häufiger Fehler",
+        "body": "Diesmal wieder abgekürztes Rufzeichen, Gegenkurs 230-050."
+      }
+    ]
+  },
+  {
+    "id": "landefreigabe-piste23l",
+    "category": "Landung",
+    "situation": "Du erhältst die Landeerlaubnis.",
+    "transmissionSpeaker": "Turm",
+    "transmissionText": "D-LI, Wind 250 Grad, 3 Knoten, Piste 23L, Landung frei.",
+    "solutionText": "Piste 23L, Landung frei, D-LI.",
+    "language": "de",
+    "keywords": [
+      "Landeerlaubnis",
+      "Kennung"
+    ],
+    "explanations": [
+      {
+        "title": "Warum … zurückgelesen wird",
+        "body": "Lande/Startfreigaben immer mit Nennung der Piste zurücklesen, Rufzeichen am Ende, da nur zurückgelesen wird."
+      },
+      {
+        "title": "Häufiger Fehler",
+        "body": "Rufzeichen am Anfang aber dies nur bei Meldungen nicht beim Zurücklesen."
+      }
     ]
   }
 ]
