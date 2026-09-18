@@ -1,5 +1,31 @@
 [
   {
+    "id": "platzrunde-du-hast-soeben-den-pflichtmeldepunkt-kilo-2-gemel",
+    "category": "Platzrunde",
+    "situation": "du hast soeben den Pflichtmeldepunkt Kilo 2 gemeldet.",
+    "transmissionSpeaker": "Köln/Bonn Turm",
+    "transmissionText": "D-EVSA, fliegen Sie in die Rechtsplatzrunde Piste 13R ein, melden Sie Gegenanflug.",
+    "solutionText": "Fliege in die Rechtsplatzrunde Piste 13R ein, WILCO, D-EVSA",
+    "language": "de",
+    "keywords": [
+      "Freigabe"
+    ],
+    "explanations": [
+      {
+        "title": "Warum die Freigabe zurückgelesen wird",
+        "body": "Freigaben sind grundsätzlich zurückzulesen"
+      },
+      {
+        "title": "Warum WILCO",
+        "body": "Meldungen die in der Zukunft liegen sind mit einem WILCO (Will Comply) zu beantworten."
+      },
+      {
+        "title": "Häufiger Fehler",
+        "body": "\"melde Gegenanflug\" als Antwort wäre falsch, da es unter Umständen mit der tatsächlichen Meldung zu verwechseln wäre"
+      }
+    ]
+  },
+  {
     "id": "erstanruf-koeln-bonn-rollkontrolle",
     "category": "Einleitungs-/Erstanruf bei zuständiger Stelle",
     "situation": "Einleitungs-/ Erstanruf Köln Bonn Rollkontrolle",
@@ -18,7 +44,7 @@
   {
     "id": "rollfreigabe-erbitten-vorfeld-gat",
     "category": "Rollen",
-    "situation": "Rollkontrolle hat  dich zurückgerufen und du möchtest deine Rollfreigabe.",
+    "situation": "Rollkontrolle hat dich zurückgerufen und du möchtest deine Rollfreigabe.",
     "transmissionSpeaker": "Rollkontrolle",
     "transmissionText": "D-LI, Köln Bonn Rollkontrolle",
     "solutionText": "D-LI, Piper PA 18, Position GAT Vorfeld Victor, VFR nach Düsseldorf via K2 und K1, Information B, erbitte rollen.",
@@ -40,18 +66,16 @@
     "solutionText": "Rolle zum Rollhalt Piste 31R über T, D, A und A3 , D-LI.",
     "language": "de",
     "keywords": [
-      "Rollauftrag",
-      "Piste",
-      "Kennung"
+      "Freigabe"
     ],
     "explanations": [
       {
-        "title": "Warum … zurückgelesen wird",
-        "body": "Rollanweisungen und Rollhalte sind zurückzulesen."
+        "title": "Warum die Freigabe zurückgelesen wird",
+        "body": "Freigaben sind grundsätzlich zurückzulesen."
       },
       {
         "title": "Häufiger Fehler",
-        "body": "Rufzeichen bei Anweisungen ,die zurückgelesen werden kommen an das Ende des Funkspruchs."
+        "body": "Rufzeichen bei Anweisungen, die zurückgelesen werden kommen an das Ende des Funkspruchs."
       }
     ]
   },
@@ -61,7 +85,7 @@
     "situation": "Die Rollkontrolle weist dich an die Frequenz zu wechseln und abflugbereit zu melden.",
     "transmissionSpeaker": "Rollkontrolle",
     "transmissionText": "D-LI, rufen sie Köln-Bonn Turm auf 124,980 und melden sie Abflugbereit.",
-    "solutionText": "Werde Köln-Bonn Turm auf 124,980 rufen, WILCO D-LI.",
+    "solutionText": "Rufe 124,890, WILCO D-LI.",
     "language": "de",
     "keywords": [
       "Frequenzwechsel",
@@ -70,22 +94,26 @@
     ],
     "explanations": [
       {
-        "title": "Warum zurückgelesen wird",
-        "body": "Frequenzwechsel sind zurückzulesen, die Meldung wenn Abflugbereit wird nur mit WILCO zurückgelesen."
+        "title": "Warum die Frequenz zurückgelesen wird",
+        "body": "Frequenzwechsel sind zurückzulesen."
       },
       {
         "title": "Häufiger Fehler",
         "body": "Melden sie wird zurückgelesen.... WILCO ist hierfür richtig."
+      },
+      {
+        "title": "Warum der Stationsname nicht zurückgelesen wird",
+        "body": "Nur die Frequenz ist zurückzulesen."
       }
     ]
   },
   {
     "id": "abflugbereit-melden-rollhalt-a3",
     "category": "Start",
-    "situation": "Du stehst am Rollhalt und meldest dich abflugbereit.",
+    "situation": "Du hast soeben die Frequenz gewechselt und stehst jetzt am Rollhalt und meldest dich abflugbereit.",
     "transmissionSpeaker": "",
     "transmissionText": "",
-    "solutionText": "Köln-Bonn Turm, D-ELLI, halte am Rollhalt A3, Piste 31R, abflugbereit.",
+    "solutionText": "Köln-Bonn Turm, D-ELLI, Rollhalt A3, Piste 31R, abflugbereit.",
     "language": "de",
     "keywords": [
       "Rollhalt",
@@ -110,9 +138,9 @@
   {
     "id": "rollauftrag-hinter-verkehr-abflugpunkt-31r",
     "category": "Start",
-    "situation": "Der Turm gibt dir die Starterlaubnis, mit Anweisungen.",
+    "situation": "Der Turm gibt dir die eine Anweisung.",
     "transmissionSpeaker": "Turm",
-    "transmissionText": "D-LI, hinter abfliegender Boeing 737 rollen sie zum Abflugpunkt Piste 31R dahinter, QNH 1020.",
+    "transmissionText": "D-LI, hinter abfliegender Boeing 737 rollen sie zum Abflugpunkt Piste 31R dahinter, neues QNH 1020.",
     "solutionText": "Hinter abfliegender Boeing 737 rolle zum Abflugpunkt Piste 31R dahinter, QNH 1020 D-LI.",
     "language": "de",
     "keywords": [
@@ -122,12 +150,8 @@
     ],
     "explanations": [
       {
-        "title": "Wichtig:",
-        "body": "Bei Anweisungen zu anderem Verkehr muss das (in dem Fall) dahinter zweifach zurückgelesen werden aus Sicherheitsgründen."
-      },
-      {
-        "title": "Warum … entfällt",
-        "body": ""
+        "title": "\"Hinter -Bedingung - Freigabe -Dahinter!\"",
+        "body": "Bei bedingten Freigaben muss sowohl vor der Bedingung als auch hinter der Freigabe ein \"Hinter\" bzw. \"Dahinter\" erfolgen."
       },
       {
         "title": "Häufiger Fehler",
@@ -151,13 +175,21 @@
       {
         "title": "Warum Wind entfällt",
         "body": "Wind muss nicht zurückgelesen werden."
+      },
+      {
+        "title": "Häufiger Fehler",
+        "body": "Rufzeichen vorne"
+      },
+      {
+        "title": "Häufiger Fehler",
+        "body": "Piste und \"Start Frei\" werden verdreht"
       }
     ]
   },
   {
     "id": "meldepunkt-kilo2-hoehe",
     "category": "Start",
-    "situation": "Erster Meldepunkt",
+    "situation": "Erreichen des ersten Meldepunktes (Kilo 2)",
     "transmissionSpeaker": "",
     "transmissionText": "",
     "solutionText": "D-LI, Kilo 2, 2.500 Fuß.",
@@ -175,13 +207,17 @@
       {
         "title": "Häufiger Fehler",
         "body": "Pflichtmeldepunkte vergessen."
+      },
+      {
+        "title": "Häufige Gegenfrage vom Prüfer",
+        "body": "\"Melden Sie Steuerkurs\", Verkehrsinformationen, allgemeine Orientierungsfragen"
       }
     ]
   },
   {
     "id": "steuerkurs-melden-nach-k2",
     "category": "Abflug",
-    "situation": "Du bist über K2.",
+    "situation": "Kurz vor erreichen des zweiten Meldepunktes.",
     "transmissionSpeaker": "Turm",
     "transmissionText": "D-LI melden sie Steuerkurs.",
     "solutionText": "Steuerkurs 325, D-LI.",
@@ -194,13 +230,17 @@
       {
         "title": "Häufiger Fehler",
         "body": "Steuerkurs falsch abgelesen."
+      },
+      {
+        "title": "Warum 325° ?",
+        "body": "Die Zahl kann aus der Karte an den Pfeilen zwischen K1 und K2 entnommen werden. Stünde hier keiner dürftest du schätzen."
       }
     ]
   },
   {
     "id": "meldepunkt-kilo1-hoehe",
-    "category": "Abflug",
-    "situation": "Zweiter Pflichtmeldepunkt.",
+    "category": "Meldepunkt",
+    "situation": "Erreichen des zweiten Pflichtmeldepunktes",
     "transmissionSpeaker": "",
     "transmissionText": "",
     "solutionText": "D-LI, Kilo 1, 2.500 Fuß.",
@@ -212,7 +252,7 @@
     "explanations": [
       {
         "title": "Häufiger Fehler",
-        "body": "Zwotausend Fünfhundert Fuß"
+        "body": "Zwotausend Fünfhundert Fuß (Du musst 2 als ZWO und nicht als Zwei aussprechen)"
       }
     ]
   },
@@ -222,7 +262,7 @@
     "situation": "Du bist über Kilo 1 und erhältst die Freigabe zum Verlassen der Kontrollzone.",
     "transmissionSpeaker": "Rollkontrolle",
     "transmissionText": "D-LI, Squawk VFR, verlassen der Frequenz genehmigt.",
-    "solutionText": "Squawking VFR, verlasse Frequenz, D-LI.",
+    "solutionText": "Squawk VFR, verlasse Frequenz, D-LI.",
     "language": "de",
     "keywords": [
       "Squawk",
@@ -239,7 +279,7 @@
   {
     "id": "erstanruf-duesseldorf-turm",
     "category": "Einleitungs-/Erstanruf bei zuständiger Stelle",
-    "situation": "Du meldest dich beim Düsseldorf Turm.",
+    "situation": "Stelle die Sprechfunkverbindung mit Düsseldorf Turm her.",
     "transmissionSpeaker": "",
     "transmissionText": "",
     "solutionText": "Düsseldorf Turm, D-ELLI.",
@@ -252,6 +292,10 @@
       {
         "title": "Häufiger Fehler",
         "body": "Erstanruf bei neuer Stelle nur Rufzeichen der Bodenstelle und eigenes Rufzeichen, Bodenstelle weiß nichts von Anflug."
+      },
+      {
+        "title": "Wann machst du diesen Anruf?",
+        "body": "mindestens 5 Minuten vor erreichen des Pflichtmeldepunktes."
       }
     ]
   },
@@ -284,7 +328,7 @@
     "situation": "Du erhältst die Einflugfreigabe.",
     "transmissionSpeaker": "Turm",
     "transmissionText": "D-LI, fliegen sie in die Kontrollzone über Sierra ein, Piste 23L, QNH 1019, Squawk 6651.",
-    "solutionText": "Werde in die Kontrollzone über Sierra einfliegen, Piste 23L, QNH 1019, Squawking 6651, D-LI.",
+    "solutionText": "Werde in die Kontrollzone über Sierra einfliegen, Piste 23L, QNH 1019, Squawk 6651, D-LI.",
     "language": "de",
     "keywords": [
       "Einflug in CTR",
@@ -299,14 +343,14 @@
       },
       {
         "title": "Häufiger Fehler",
-        "body": "2 wird zu ZWO."
+        "body": "2 wird zu ZWO, Rufzeichen an falscher Stelle."
       }
     ]
   },
   {
     "id": "meldepunkt-sierra-hoehe",
     "category": "Meldepunkt",
-    "situation": "Über Sierra.",
+    "situation": "Du meldest deine Position über Sierra.",
     "transmissionSpeaker": "",
     "transmissionText": "",
     "solutionText": "D-LI, Sierra, 2.500 Fuß.",
@@ -321,9 +365,9 @@
   {
     "id": "platzrunde-einflug-gegenanflug-melden",
     "category": "Meldepunkt",
-    "situation": "Über Sierra",
+    "situation": "Über Sierra, ggf. nach der Meldung deinerseits.",
     "transmissionSpeaker": "Turm",
-    "transmissionText": "D-ELLI, fliegen sie in die Platzrunde ein Piste 23L, melden sie Gegenanflug.",
+    "transmissionText": "D-ELLI, fliegen sie in die Platzrunde der Piste 23L, melden sie Gegenanflug.",
     "solutionText": "Werde in die Platzrunde einfliegen Piste 23L, WILCO, D-ELLI.",
     "language": "de",
     "keywords": [
@@ -334,14 +378,18 @@
     "explanations": [
       {
         "title": "Häufiger Fehler",
-        "body": "Ganzes Rufzeichen, WILCO benutzen für nächste Meldung."
+        "body": "Ganzes Rufzeichen, da der Lotse dich nicht (mehr) abkürzt."
+      },
+      {
+        "title": "Warum verwende ich WILCO?",
+        "body": "Meldungen die in der Zukunft liegen sind mit WILCO zu beantworten."
       }
     ]
   },
   {
     "id": "gegenanflug-piste23l-melden",
     "category": "Platzrunde",
-    "situation": "Du bist im Gegenanflug Piste 23L",
+    "situation": "Du bist im Gegenanflug der Piste 23L",
     "transmissionSpeaker": "",
     "transmissionText": "",
     "solutionText": "D-ELLI, Gegenanflug Piste 23L.",
@@ -356,8 +404,12 @@
         "body": "Wieder ganzes Rufzeichen wie davor von Turm verwendet."
       },
       {
-        "title": "Was wird gemeldet:",
-        "body": "Wie verlangt Gegenanflug Piste 23L"
+        "title": "Warum melde ich keine Höhe mit?",
+        "body": "In der Platzrunde entfallen die Höhenmeldungen."
+      },
+      {
+        "title": "Häufige Nachfragen vom Prüfer",
+        "body": "Melden Sie Steuerkurs, Melden Sie Flughöhe, Bestätigen Sie Verkehr XY in Sicht"
       }
     ]
   },
@@ -395,12 +447,20 @@
     ],
     "explanations": [
       {
-        "title": "Warum … zurückgelesen wird",
-        "body": "Lande/Startfreigaben immer mit Nennung der Piste zurücklesen, Rufzeichen am Ende, da nur zurückgelesen wird."
+        "title": "Warum die Landefreigabe inkl. Piste zurückgelesen wird",
+        "body": "Lande/Startfreigaben immer mit Nennung der Piste zurücklesen"
       },
       {
         "title": "Häufiger Fehler",
         "body": "Rufzeichen am Anfang aber dies nur bei Meldungen nicht beim Zurücklesen."
+      },
+      {
+        "title": "\"Fallen\" vom Prüfer",
+        "body": "Wiederholen Sie Wind"
+      },
+      {
+        "title": "Warum wird Wind nicht zurückgelesen?",
+        "body": "Wetterinformationen sind grundsätzlich nicht zurückzulesen."
       }
     ]
   }
