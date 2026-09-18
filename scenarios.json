@@ -1,26 +1,17 @@
 [
   {
+    "id": "platzrunde-einflug-rechtsplatzrunde-13r",
     "category": "Platzrunde",
-    "situation": "du hast soeben den Pflichtmeldepunkt Kilo 2 gemeldet.",
+    "situation": "Du hast soeben den Pflichtmeldepunkt Kilo 2 gemeldet.",
     "transmissionSpeaker": "Köln/Bonn Turm",
     "transmissionText": "D-EVSA, fliegen Sie in die Rechtsplatzrunde Piste 13R ein, melden Sie Gegenanflug.",
     "solutionText": "Fliege in die Rechtsplatzrunde Piste 13R ein, WILCO, D-EVSA",
-    "keywords": [
-      "Freigabe"
-    ],
+    "language": "de",
+    "keywords": ["Freigabe", "WILCO"],
     "explanations": [
-      {
-        "title": "Warum die Freigabe zurückgelesen wird",
-        "body": "Freigaben sind grundsätzlich zurückzulesen"
-      },
-      {
-        "title": "Warum WILCO",
-        "body": "Meldungen die in der Zukunft liegen sind mit einem WILCO (Will Comply) zu beantworten."
-      },
-      {
-        "title": "Häufiger Fehler",
-        "body": "\"melde Gegenanflug\" als Antwort wäre falsch, da es unter Umständen mit der tatsächlichen Meldung zu verwechseln wäre"
-      }
+      { "title": "Warum die Freigabe zurückgelesen wird", "body": "Freigaben sind grundsätzlich zurückzulesen." },
+      { "title": "Warum WILCO", "body": "Meldungen, die in der Zukunft liegen, sind mit einem WILCO (Will Comply) zu beantworten." },
+      { "title": "Häufiger Fehler", "body": "„Melde Gegenanflug“ als Antwort wäre falsch, da es unter Umständen mit der tatsächlichen Meldung zu verwechseln wäre." }
     ]
   }
 ]
