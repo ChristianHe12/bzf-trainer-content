@@ -1,6 +1,6 @@
 [
   {
-    "id": "platzrunde-du-hast-soeben-den-pflichtmeldepunkt-kilo-2-gemel",
+    "id": "1",
     "category": "Platzrunde",
     "situation": "du hast soeben den Pflichtmeldepunkt Kilo 2 gemeldet.",
     "transmissionSpeaker": "Köln/Bonn Turm",
@@ -26,7 +26,7 @@
     ]
   },
   {
-    "id": "erstanruf-koeln-bonn-rollkontrolle",
+    "id": "2,
     "category": "Einleitungs-/Erstanruf bei zuständiger Stelle",
     "situation": "Einleitungs-/ Erstanruf Köln Bonn Rollkontrolle",
     "transmissionSpeaker": "",
@@ -42,7 +42,7 @@
     ]
   },
   {
-    "id": "rollfreigabe-erbitten-vorfeld-gat",
+    "id": "3,
     "category": "Rollen",
     "situation": "Rollkontrolle hat dich zurückgerufen und du möchtest deine Rollfreigabe.",
     "transmissionSpeaker": "Rollkontrolle",
@@ -58,7 +58,7 @@
     ]
   },
   {
-    "id": "rollfreigabe-rollhalt-piste31r",
+    "id": "4,
     "category": "Rollen",
     "situation": "Du stehst am Vorfeld V (GAT) und erhältst die Rollfreigabe.",
     "transmissionSpeaker": "Rollkontrolle",
@@ -80,7 +80,7 @@
     ]
   },
   {
-    "id": "frequenzwechsel-turm-abflugbereit-melden",
+    "id": "5",
     "category": "Frequenzwechsel",
     "situation": "Die Rollkontrolle weist dich an die Frequenz zu wechseln und abflugbereit zu melden.",
     "transmissionSpeaker": "Rollkontrolle",
@@ -108,7 +108,7 @@
     ]
   },
   {
-    "id": "abflugbereit-melden-rollhalt-a3",
+    "id": "6,
     "category": "Start",
     "situation": "Du hast soeben die Frequenz gewechselt und stehst jetzt am Rollhalt und meldest dich abflugbereit.",
     "transmissionSpeaker": "",
@@ -136,7 +136,7 @@
     ]
   },
   {
-    "id": "rollauftrag-hinter-verkehr-abflugpunkt-31r",
+    "id": "7",
     "category": "Start",
     "situation": "Der Turm gibt dir die eine Anweisung.",
     "transmissionSpeaker": "Turm",
@@ -160,7 +160,7 @@
     ]
   },
   {
-    "id": "startfreigabe-piste31r",
+    "id": "8",
     "category": "Start",
     "situation": "Du erhältst deine Starterlaubnis.",
     "transmissionSpeaker": "Turm",
@@ -187,7 +187,7 @@
     ]
   },
   {
-    "id": "meldepunkt-kilo2-hoehe",
+    "id": "9",
     "category": "Start",
     "situation": "Erreichen des ersten Meldepunktes (Kilo 2)",
     "transmissionSpeaker": "",
@@ -215,7 +215,7 @@
     ]
   },
   {
-    "id": "steuerkurs-melden-nach-k2",
+    "id": "10",
     "category": "Abflug",
     "situation": "Kurz vor erreichen des zweiten Meldepunktes.",
     "transmissionSpeaker": "Turm",
@@ -238,7 +238,7 @@
     ]
   },
   {
-    "id": "meldepunkt-kilo1-hoehe",
+    "id": "11",
     "category": "Meldepunkt",
     "situation": "Erreichen des zweiten Pflichtmeldepunktes",
     "transmissionSpeaker": "",
@@ -257,7 +257,7 @@
     ]
   },
   {
-    "id": "verlassen-kontrollzone-squawk-vfr",
+    "id": "12",
     "category": "Verlassen der Kontrollzone",
     "situation": "Du bist über Kilo 1 und erhältst die Freigabe zum Verlassen der Kontrollzone.",
     "transmissionSpeaker": "Rollkontrolle",
@@ -277,7 +277,7 @@
     ]
   },
   {
-    "id": "erstanruf-duesseldorf-turm",
+    "id": "13",
     "category": "Einleitungs-/Erstanruf bei zuständiger Stelle",
     "situation": "Stelle die Sprechfunkverbindung mit Düsseldorf Turm her.",
     "transmissionSpeaker": "",
@@ -300,7 +300,7 @@
     ]
   },
   {
-    "id": "kontrollzone-einflug-informationen-suedlich-sierra",
+    "id": "14",
     "category": "Kontrollzone-Einflug",
     "situation": "Du bist 5 min südlich von Sierra 1 und übermittelst deine Informationen. (ATIS: T, Piper PA18)",
     "transmissionSpeaker": "",
@@ -323,7 +323,7 @@
     ]
   },
   {
-    "id": "einflugfreigabe-kontrollzone-sierra",
+    "id": "15",
     "category": "Kontrollzone-Einflug",
     "situation": "Du erhältst die Einflugfreigabe.",
     "transmissionSpeaker": "Turm",
@@ -348,7 +348,7 @@
     ]
   },
   {
-    "id": "meldepunkt-sierra-hoehe",
+    "id": "16,
     "category": "Meldepunkt",
     "situation": "Du meldest deine Position über Sierra.",
     "transmissionSpeaker": "",
@@ -363,7 +363,7 @@
     "explanations": []
   },
   {
-    "id": "platzrunde-einflug-gegenanflug-melden",
+    "id": "17",
     "category": "Meldepunkt",
     "situation": "Über Sierra, ggf. nach der Meldung deinerseits.",
     "transmissionSpeaker": "Turm",
@@ -387,7 +387,7 @@
     ]
   },
   {
-    "id": "gegenanflug-piste23l-melden",
+    "id": "18",
     "category": "Platzrunde",
     "situation": "Du bist im Gegenanflug der Piste 23L",
     "transmissionSpeaker": "",
@@ -414,7 +414,7 @@
     ]
   },
   {
-    "id": "steuerkurs-gegenanflug-piste23l",
+    "id": "19",
     "category": "Platzrunde",
     "situation": "Gegenanflug Piste 23L",
     "transmissionSpeaker": "Turm",
@@ -434,7 +434,7 @@
     ]
   },
   {
-    "id": "landefreigabe-piste23l",
+    "id": "20",
     "category": "Landung",
     "situation": "Du erhältst die Landeerlaubnis.",
     "transmissionSpeaker": "Turm",
