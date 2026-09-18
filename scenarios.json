@@ -26,7 +26,7 @@
     ]
   },
   {
-    "id": "2,
+    "id": "2",
     "category": "Einleitungs-/Erstanruf bei zuständiger Stelle",
     "situation": "Einleitungs-/ Erstanruf Köln Bonn Rollkontrolle",
     "transmissionSpeaker": "",
@@ -42,7 +42,7 @@
     ]
   },
   {
-    "id": "3,
+    "id": "3",
     "category": "Rollen",
     "situation": "Rollkontrolle hat dich zurückgerufen und du möchtest deine Rollfreigabe.",
     "transmissionSpeaker": "Rollkontrolle",
@@ -58,7 +58,7 @@
     ]
   },
   {
-    "id": "4,
+    "id": "4",
     "category": "Rollen",
     "situation": "Du stehst am Vorfeld V (GAT) und erhältst die Rollfreigabe.",
     "transmissionSpeaker": "Rollkontrolle",
@@ -108,7 +108,7 @@
     ]
   },
   {
-    "id": "6,
+    "id": "6",
     "category": "Start",
     "situation": "Du hast soeben die Frequenz gewechselt und stehst jetzt am Rollhalt und meldest dich abflugbereit.",
     "transmissionSpeaker": "",
@@ -348,7 +348,7 @@
     ]
   },
   {
-    "id": "16,
+    "id": "16",
     "category": "Meldepunkt",
     "situation": "Du meldest deine Position über Sierra.",
     "transmissionSpeaker": "",
